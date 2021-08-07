@@ -1,0 +1,316 @@
+img {
+    width: 100%;
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+}
+
+#contact:hover {
+    color: white;
+    background: rgb(255, 255, 255, 0.3) !important;
+}
+
+#header {
+    top: 25%;
+    left: 20%;
+    width: 60%;
+}
+
+#wac {
+    letter-spacing: 0.7rem;
+}
+
+#header img {
+    width: auto;
+}
+
+._bg {
+    background: rgb(254, 251, 248);
+}
+
+#tyb {
+    width: 64%;
+}
+
+._900 {
+    font-weight: 900;
+}
+
+._fraunces {
+    font-family: 'Fraunces', serif;
+}
+
+._p {
+    line-height: 1.75rem;
+}
+
+._barlow {
+    font-family: 'Barlow', sans-serif;
+}
+
+._description {
+    font-size: 1.1rem;
+    color: hsl(232, 10%, 55%); 
+}
+
+._lm {
+    padding: 30px 0 8px;
+    position: relative;
+    z-index: 0;
+}
+  
+._lm::before {
+    content: "";
+    position: absolute;
+    left: -7%;
+    bottom: 6px;
+    width: 130px;
+    height: 10px;
+    z-index: -1;
+    border-radius: 1rem;
+}
+
+#tyb ._lm::before {
+    background: hsl(51, 100%, 49%, 0.2);
+}
+
+#tyb ._lm:hover::before  {
+    background: hsl(51, 100%, 49%);
+}
+
+#sottra {
+    width: 65%;
+}
+
+#sottra ._lm::before {
+    background: hsl(7, 99%, 70%, 0.2);
+}
+
+#sottra ._lm:hover::before {
+    background: hsl(7, 99%, 70%);
+}
+
+#gd {
+    color: hsl(167, 40%, 24%); 
+}
+
+#p {
+    color: hsl(198, 62%, 26%); 
+}
+
+#gd, #p {
+    top: 65%;
+    left: 25%;
+    width: 50%;
+}
+
+#testimonials {
+    padding: 10rem 0;
+}
+
+#ct {
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 0.3rem;
+}
+
+.card img {
+    width: 4.25rem;
+}
+
+._comment {
+    color: hsl(213, 9%, 39%);
+    font-size: 1.1rem;
+}
+
+._role {
+    color: hsl(210, 4%, 67%);
+}
+
+#footer {
+    padding: 4rem 0;
+    background: rgb(144, 212, 197);
+}
+
+#brand {
+    color: hsl(167, 40%, 24%, 0.8);
+}
+
+.nav .nav-link {
+    color: hsl(168, 34%, 41%);
+}
+
+.nav .nav-link:hover {
+    color: white;
+}
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        font-size: 2.5rem !important;
+    }
+
+    #contact {
+        font-size: 1.25rem;
+    }
+
+    #header {
+        left: 0;
+        width: 100%;
+    }
+    
+    #wac {
+        font-size: 4rem;
+    }
+
+    #header img {
+        height: 10rem;
+    }
+
+    ._space {
+        padding: 5rem 0;
+    }
+
+    #tyb{
+        width:75%;
+    }
+
+    ._lm {
+        font-size: 1.25rem;
+    }
+      
+    ._lm::before {
+        width: 160px;
+        height: 12px;
+    }
+
+    #sottra{
+        width: 73%;
+    }
+
+    #tyb, #sottra {
+        text-align: center;
+    }
+    
+    #gd, #p {
+        left: 0%;
+        width: 100%;
+    }
+
+    ._title {
+        font-size: 2.5rem !important;
+    }
+
+    #testimonials {
+        padding: 5rem 0 7rem;
+    }
+
+    .card img {
+        width: 6rem;
+    }
+
+    ._p {
+        font-size: 1.5rem;
+        line-height: 2.75rem;
+    }
+
+    ._name {
+        font-size: 1.5rem;
+    }
+
+    ._role {
+        font-size: 1.25rem;
+    }
+
+    #footer {
+        padding-bottom: 7.5rem;
+    }
+
+    #brand {
+        font-size: 3.5rem !important;
+    }
+    
+    .nav .nav-link {
+        font-size: 1.75rem;
+    }
+    
+    .nav-link img {
+        width: 2rem;
+    }
+}
+
+@media (min-width:576px) and (max-width: 877px) {
+    ._title {
+        font-size: 1rem !important;
+    }
+
+    ._p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    #tyb, #sottra {
+        text-align: center;
+    }
+
+    #gd, #p {
+        top: 55%;
+        left: 2.5%;
+        width: 95%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .navbar-nav {
+        width: 50%;
+        margin-left: auto;
+    }
+}
+
+@media (min-width:878px) and (max-width: 1314px) {
+    ._p {
+        font-size: 1rem;
+    }
+
+    #gd, #p {
+        top: 60%;
+        left: 10%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        z-index: 1;
+        position: relative;
+        background: rgb(254, 251, 248);
+    }
+
+    #cheat {
+        width: 100%;
+        background: rgb(85, 191, 248);
+    }
+
+    .triangle {
+        width: 35px;
+        height: 35px;
+        background: linear-gradient(to bottom right, rgb(85, 191, 248) 0%, rgb(85, 191, 248) 50%, rgb(254, 251, 248) 50%, rgb(254, 251, 248) 100%);
+    }
+
+    .navbar-nav a {
+        color: hsl(232, 10%, 55%) !important;
+        font-size: 1.5rem;
+    }
+    
+    #contact {
+        background: hsl(51, 100%, 49%) !important;
+    }
+    
+    #contact:hover {
+        background: hsl(212, 27%, 19%) !important;
+    }
+
+    #header {
+        z-index: 0;
+    }
+}
