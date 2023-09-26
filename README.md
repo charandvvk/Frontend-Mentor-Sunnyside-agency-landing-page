@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out my approach to this front-end coding challenge. You can see my code in action [here](https://lucidreamer421.github.io/Frontend-Mentor-Sunnyside-agency-landing-page/).
+Thanks for checking out my approach to this front-end coding challenge. You can see my code in action [here](https://charandvvk.github.io/Frontend-Mentor-Sunnyside-agency-landing-page/).
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
